@@ -1,0 +1,168 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    height: 70px;
+    padding: 20px;
+    margin: 0;
+    gap: 100px;
+    justify-content: space-around;
+}
+.header .header-logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size:18px ;
+    list-style: none;
+    
+}
+.links {
+    display:flex;
+    gap: 20px;
+}
+
+.first-container {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size:18px ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.main .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main .secondary-text {
+    flex-wrap: wrap;
+}
+
+
+img{
+    height: 260px;
+}
+
+button {
+    background-color:rgb(8, 86, 135);
+    color: #fff;
+    width: 80px;
+    border: 1px rgb(8, 86, 135);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.sec {
+    height: 130px;
+    border: 5px rgb(8, 86, 135); 
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 30px;
+    text-align: center;
+}
+
+.second-container{
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.info {
+    font-size: 18px;
+    color: #515356;
+}
+
+.third-container {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    height: 100px;
+    width: auto;   
+    padding: 100px;
+
+}
+.third-container .italic-text{
+    justify-content: center;
+    align-items: center;
+}
+
+.third-container .author{
+    padding-left: 850px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.fourth-container {
+    display: flex;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    box-sizing: content-box;
+    
+    
+}
+
+.heading4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.txt {
+    color: #F9FAF8;
+}
+
+.second-button {
+    background: transparent;
+    border:2px solid #fff;
+    font-weight: bolder;
+    height: 40px;
+    font-size: 15px;
+    width: 100px;
+}
+
+
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+
